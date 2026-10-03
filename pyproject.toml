@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vaultchain-sdk"
+version = "0.1.0"
+description = "Python SDK for VaultChain — append-only AI inference audit storage"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["vaultchain_sdk*"]
